@@ -1,0 +1,257 @@
+ /* Font */
+ @font-face {
+     font-family: 'Work Sans';
+     src: url('fonts/WorkSans-Bold') format('ttf');
+     font-weight: bold;
+     font-style: normal;
+ }
+
+ /* Body Formatting */
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: #121212;
+     /* Background image */
+     background-image: url('assets/background.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+ /* Navigation bar */
+ .navigation-bar {
+     margin-left: 14%;
+     display: flex;
+     color: white;
+     padding-top: 15px;
+     text-align: left;
+     align-items: center;
+     font-size: 1vw;
+ }
+
+ /* Elements of navigaton bar */
+ .navigation-bar-elements {
+     color: #67f2d1;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 700;
+     margin-right: 1vw;
+     text-decoration: none;
+ }
+
+ .vinly-logo {
+     padding-right: 2vw;
+     width: 3vw;
+     height: 3vw;
+ }
+
+ /* Hover effect */
+ .navigation-bar-elements:hover {
+     text-decoration: underline;
+ }
+
+ /* Featured section */
+ .featured-section {
+     margin-left: 14%;
+     display: flex;
+     color: white;
+     text-align: center;
+ }
+
+ /* Social Media Links Container */
+ .links-container {
+     display: flex;
+     align-items: center;
+     gap: 1vw;
+     margin-top: 20px;
+ }
+
+ /* Line on links */
+ .line {
+     width: 5px;
+     height: 2vw;
+     background-color: #67f2d1;
+     border-radius: 10px;
+ }
+
+ /* Social media links image */
+ .socmed-logo {
+     width: 2vw;
+     height: 2vw;
+ }
+
+ /* Texts on featured section */
+ .featured-section p {
+     font-family: 'Work Sans', sans-serif;
+     margin: 0;
+     font-size: 4vw;
+     font-weight: 700;
+     color: white;
+     padding-bottom: -10px;
+     text-align: left;
+ }
+
+ /* Profile picture */
+ .profile-photo {
+     width: 40vw;
+     height: 40vw;
+     margin-right: 10vw;
+ }
+
+ /* Project Section */
+ .projects {
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 700;
+     font-size: 50px;
+     color: white;
+ }
+
+ /* "My Project" Text*/
+ .projects-text {
+     font-size: 4vw;
+     display: flex;
+     justify-content: center;
+ }
+
+ /* Container that contains the project images and description */
+ .projects-container {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+ }
+
+ /* Formatting per project */
+ .project-item {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 400px;
+     transition: transform 0.3s ease;
+ }
+
+ /* Project photo */
+ .projects-pic {
+     width: 100%;
+     height: auto;
+     transition: 0.5s ease;
+ }
+
+ /* Project text/description */
+ .project-description {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     color: white;
+     font-size: 1vw;
+     text-align: center;
+     opacity: 0;
+     transform: translate(-50%, -50%);
+     transition: 0.5s ease;
+ }
+
+ /* Project name */
+ .project-name {
+     font-size: 2vw;
+     color: #67f2d1;
+ }
+
+ /* Hover effect */
+ .project-item:hover .projects-pic {
+     opacity: 0.3;
+ }
+
+ .project-item:hover .project-description {
+     opacity: 1;
+ }
+
+ /* Skills and autobiography section */
+ .skills-autobiography {
+     margin-right: 14%;
+     margin-left: 14%;
+     display: flex;
+     color: white;
+     padding: 20px;
+     text-align: center;
+ }
+
+ /* Title formatting */
+ .title-text {
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 700;
+     flex: 1;
+     font-size: 4vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+
+ /* Rectangle formatting */
+ .rectangle {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 25vw;
+     height: 4vw;
+     padding: 10px;
+     background-color: #292929;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     font-family: "Work Sans";
+     font-size: 24px;
+     color: rgb(255, 255, 255);
+ }
+
+ /* Contains the logo and text */
+ .logo-text-container {
+     display: flex;
+     align-items: center;
+ }
+
+ /* Logo formatting */
+ .section-logo {
+     padding-right: 20px;
+     width: 4vw;
+     height: 4vw;
+ }
+
+ /* Percentage */
+ .section-text {
+     font-size: 1vw;
+ }
+
+ /* Text formatting */
+ .auto-text {
+     font-size: 0.7vw;
+     font-family: 'Segoe UI', sans-serif;
+ }
+
+ /* Footer container formatting */
+ .footer {
+     margin-left: 14%;
+     display: flex;
+     align-items: center;
+ }
+
+ /* Logo at the footer */
+ .vinly-logo-footer {
+     padding-right: 2vw;
+     width: 5vw;
+     height: 5vw;
+ }
+
+ /* Contents of the footer */
+ .footer-contents {
+     margin: 0;
+     font-size: 0.7vw;
+     font-family: 'Segoe UI', sans-serif;
+     color: rgb(255, 255, 255);
+ }
+
+ /* Hyperlink back to top */
+ .footer-top {
+     font-size: 0.7vw;
+     font-family: 'Segoe UI', sans-serif;
+     color: rgb(255, 255, 255);
+ }
