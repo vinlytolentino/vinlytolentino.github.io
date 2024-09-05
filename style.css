@@ -249,6 +249,13 @@
      color: rgb(255, 255, 255);
  }
 
+ .footer-contents a {
+     margin: 0;
+     font-size: 0.7vw;
+     font-family: 'Segoe UI', sans-serif;
+     color: rgb(255, 255, 255);
+ }
+
  /* Hyperlink back to top */
  .footer-top {
      font-size: 0.7vw;
